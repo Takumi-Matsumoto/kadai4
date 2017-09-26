@@ -14,7 +14,10 @@
  Math.sqrt(@x**2+@y**2)
  end
  
- def add()
-
+ def add(v)
+ x=@x+v.x
+ y=@y+v.y
+ Vector.new(x,y)
  end
+
 end
